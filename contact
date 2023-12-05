@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archer Industriest</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header, nav, section, aside, footer {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #f0f0f0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        section {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Archer Industries</h1>
+    </header>
+
+    <nav>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+            <li> <a href="products.html">Products</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+    </nav>
+
+    <section>
+        <h2>Contact</h2>
+        <p>Give me your contact details</p>
+    </section>
+
+    <aside>
+        <h2>Contact aside</h2>
+        <p>Welcome to contact aside page</p>
+    </aside>
+
+    <footer>
+        <p>&copy; Copyright Archer Industries</p>
+    </footer>
+    
+</body>
+</html>
