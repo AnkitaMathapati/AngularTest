@@ -12,14 +12,26 @@
             box-sizing: border-box;
         }
         header, nav, section, aside, footer {
-            margin: 20px;
+            margin: 20px; 
             padding: 20px;
             border: 1px solid #ccc;
+            
         }
+        header{
+            background-color:violet
+        }
+        aside{
+            background-color:lightslategrey;
+        }
+        footer{
+            background-color:paleturquoise
+        }
+        
+        
         nav {
             display: flex;
             justify-content: space-around;
-            background-color: #f0f0f0;
+            background-color: skyblue;
         }
         nav a {
             text-decoration: none;
@@ -28,6 +40,7 @@
         }
         section {
             text-align: center;
+            background-color: chocolate;
         }
     </style>
 </head>
@@ -47,6 +60,7 @@
     <section>
         <h2>Contact</h2>
         <p>Give me your contact details</p>
+        
     </section>
 
     <aside>
